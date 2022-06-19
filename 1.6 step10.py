@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 import math
 
+
 try:
 
     link = "http://suninjuly.github.io/explicit_wait2.html"
