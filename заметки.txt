@@ -1,0 +1,8 @@
+не явное ожидание
+browser.implicitly_wait(5)
+
+явное ожидание
+price = WebDriverWait(browser, 12).until(EC.text_to_be_present_in_element((By.CSS_SELECTOR, "#price"), '$100'))
+
+прикрепить файл
+.send_keys( '/home/course_solutions/file.txt')
